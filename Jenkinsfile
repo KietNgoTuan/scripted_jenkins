@@ -1,7 +1,7 @@
 node{	
 	stag('Checkout'){
 		checkout([$class: 'GitSCM', 
-			branches: [[name: "origin/main","origin/master"]], 
+			branches: [[name: "origin/master"]], 
 			userRemoteConfigs: [[
 			url: 'https://github.com/KietNgoTuan/scripted_jenkins.git']]
 		])
