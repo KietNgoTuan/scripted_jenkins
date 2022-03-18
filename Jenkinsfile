@@ -1,5 +1,5 @@
 node{	
-	stag('Checkout'){
+	stage('Checkout'){
 		checkout([$class: 'GitSCM', 
 			branches: [[name: "origin/master"]], 
 			userRemoteConfigs: [[
